@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    background: #ECE9D8
+}
+
+.template {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.headersection {}
+
+.header {
+    background: #333333;
+    height: 80px;
+}
+
+.headerleft {
+    color: #fff;
+    float: left;
+    width: 500px;
+}
+
+.headerleft h2 {
+    font-size: 70px;
+    line-height: 80px;
+    padding-left: 50px;
+}
+
+.headerright {
+    color: #fff;
+    float: right;
+    padding-top: 55px;
+    width: 430px;
+}
+
+.headerright a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.headerright a:hover,
+#active {
+    color: #00ADEF;
+}
+
+.slider {
+    width: 1024px;
+    margin: 2px auto;
+}
+
+.slider-wrapper {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.slide {
+    float: left;
+    position: absolute;
+    width: 94%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 3s linear;
+    padding-left: 32px;
+}
+
+.slider-wrapper>.slide:first-child {
+    opacity: 1;
+}
+
+.mainsection {
+    background: #FFFFFF;
+}
+
+.slogansection {
+    border-bottom: 2px dotted #a8a8a8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding-bottom: 28px;
+}
+
+.slogansection h2 {
+    color: #000;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.slogansection h3 {
+    color: #a8a8a8;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.description {
+    border-bottom: 2px dotted #a8a8a8;
+    color: #666;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 28px 50px 50px;
+    padding-bottom: 30px;
+}
+
+.description p {}
+
+.contentsection {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.service {
+    background: #00adef none repeat scroll 0 0;
+    float: left;
+    margin-left: 52px;
+    padding: 20px;
+    width: 212px;
+}
+
+.service h2 {
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.service p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left
+}
+
+.readmore {
+    background: #0076a4 margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.readmore a {
+    color: #ddd;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.readmore a:hover {}
+
+.mainbottom {
+    border-bottom: 2px dotted #cccccc;
+    border-top: 2px dotted #cccccc;
+    margin: 30px 50px 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.clientsection {
+    border-right: 2px dotted #ccc;
+    float: left;
+    margin-right: 30px;
+    padding-right: 30px;
+    width: 398px;
+}
+
+.clientsection h2 {
+    color: #666;
+    font-size: 25px;
+    line-height: 30px;
+    ;
+}
+
+.testimonial {
+    margin-top: 20px;
+}
+
+.clientimage {
+    float: left;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.clientimage img {
+    width: 80px;
+    height: 80px;
+}
+
+.clientdesc {
+    float: left;
+    width: 298px;
+}
+
+.clientdesc p {
+    color: #666;
+}
+
+.clientdesc a {
+    color: #00adef;
+    text-decoration: none;
+}
+
+.clientname {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.projectsection {
+    width: 400px;
+    float: right;
+}
+
+.projectsection h2 {
+    color: #666;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.projectsection h3 {
+    color: #999;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.projectsection img {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 165px;
+    margin-bottom: 8px;
+    width: 398px;
+}
+
+.projectsection p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.projectsection a {
+    color: #00adef;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.fottersection {
+    background: #FFFFFF;
+}
+
+.fottersection p {
+    color: #999;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
